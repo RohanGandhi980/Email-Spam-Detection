@@ -1,2 +1,4 @@
-# Email-Spam-Detection
-The email spam detection project aimed to classify emails as spam or ham using deep learning techniques and Natural Language Processing. 
+The goal of the email spam detection project was to use natural language processing and deep learning techniques to identify emails as either spam or ham. 
+In order to give extensive semantic comprehension of words based on big text corpora, GloVe embeddings were added. An embedding layer, bidirectional LSTM layers for capturing contextual dependencies, and dense layers with dropout to avoid overfitting were all part of the LSTM model design. To prevent overfitting and maximize performance on validation data, the model was trained using early stopping and built using binary cross-entropy loss.
+Accuracy, precision, recall, and F1-score metrics were generated as part of the evaluation, along with a confusion matrix. In order to ensure effective deployment without retraining, the trained model was stored for later use.
+
